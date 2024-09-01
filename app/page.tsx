@@ -1,9 +1,14 @@
+import Footer from "./Components/Footer";
+import Galerie from "./Components/Galerie";
+import Header from "./Components/Header";
 
 
 export default function Home() {
   return (
    <>
-   <h1>Hello</h1>
+   <Header />
+   <Galerie />
+   <Footer />
    </>
   );
 }
